@@ -16,6 +16,7 @@ function App() {
         <Materiui></Materiui>
         <BrowserRouter>
           <Routes>
+            
             <Route path="/settings" element={<Settings />} />
             <Route path="/about" element={<About />} />
             <Route path="/home" element={<Home />} />
